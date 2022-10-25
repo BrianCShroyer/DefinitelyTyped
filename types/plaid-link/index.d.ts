@@ -16,7 +16,7 @@ declare global {
 
 export namespace Plaid {
     interface CreateConfig {
-        clientName: string;
+        client_name: string;
         product: Product[];
         key: string;
         env: Environment;
